@@ -4,11 +4,51 @@ body {
 }
 
 header {
-    background-color: red;
-    height: 50px;
+    /* background-color: red; */
+    height: 60px;
     position: fixed;
     top: 0;
     width: 100%;
+}
+#about-store {
+    display: inline;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .80em;
+    margin-top: 25px;
+    padding-left: 25px;
+    vertical-align: middle;
+}
+#about-store a, #user-admin a {
+    color: #5F6368;
+    margin-right: 20px;
+}
+#about-store a:link, #user-admin a:link {
+    text-decoration: none;
+}
+#about-store a:hover, #user-admin a:hover {
+    color: rgb(59, 61, 65);
+    text-decoration: underline;
+}
+
+#user-admin {
+    display: inline;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .80em;
+    margin-top: 25px;
+    padding-right: 25px;
+    vertical-align: middle;
+}
+#user-admin a {
+    vertical-align: top;
+}
+.user-icon {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    margin-top: -10px;
+    border-radius: 25px;
 }
 
 
