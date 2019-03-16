@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* LOGO + FORM STYLES */
+#logo-and-form {
+    margin-top: 200px;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#logo img {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    width: 225px;
+}
+
+form {
+   /* background-color: red; */
+   
+}
+form input[type="text"] {
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    /* background-position-x: right; */
+    background-position-x: 98%;
+    background-position-y: center;
+    background-size: 24px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    display: block;
+    font-size: 1em;
+    margin: auto;
+    padding-left: 20px;
+    height: 40px;
+    width: 500px;
+}
+form input[type="text"]:hover {    
+    /* background-color: red; */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.10);
+}
+
+form input:focus{
+    outline: none;
+}
+
+.searchButtons {
+    /* background-color: brown; */
+    display: block;
+    font-size: 1em;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    height: 40px;
+    width: 500px;
+}
+.searchButtons input[type="button"] {
+    background-color: rgb(243, 243, 243);
+    border: none;
+    border-radius: 5px;
+    color: #5F6368;
+    cursor: pointer;
+    font-size: .85em;
+    margin: auto;
+    width: 150px;  
+    height: 40px;  
+}
+.searchButtons input[name="search-button"] {
+    margin-right: 10px;
+}
+.searchButtons input[type="button"]:hover {    
+    /* background-color: red; */
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(170, 170, 170);
+    color: rgb(59, 61, 65);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.10);
+}
+/* // END // LOGO + FORM STYLES */
